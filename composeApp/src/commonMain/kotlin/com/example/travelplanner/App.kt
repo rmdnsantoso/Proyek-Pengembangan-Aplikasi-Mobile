@@ -48,7 +48,7 @@ fun App(
                 val currentRoute = currentBackStackEntry?.destination?.route
 
                 val showBottomBar = when (currentRoute?.substringAfterLast(".")) {
-                    "Home", "MyTrips", "Expenses", "Profile" -> true
+                    "Home", "MyTrips", "FinanceSummary", "Profile" -> true
                     else -> false
                 }
 
